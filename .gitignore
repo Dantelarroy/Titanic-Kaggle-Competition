@@ -1,8 +1,8 @@
-__pycache__/
-*.pyc
-.DS_Store
-data/*
+# Excepciones para README.md
 !data/README.md
+
+# Ignorar todos los archivos dentro de data
+data/*
 
 # Ignorar archivos de entorno virtual
 venv/
@@ -14,3 +14,8 @@ data/processed/*
 
 # Ignorar modelos entrenados
 *.pkl
+
+# Otros archivos ignorados
+__pycache__/
+*.pyc
+.DS_Store

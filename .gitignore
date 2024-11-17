@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+data/*
+!data/README.md
+
+# Ignorar archivos de entorno virtual
+venv/
+__pycache__/
+
+# Ignorar los datos
+data/raw/*
+data/processed/*
+
+# Ignorar modelos entrenados
+*.pkl
